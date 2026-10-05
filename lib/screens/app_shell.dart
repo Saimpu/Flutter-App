@@ -327,7 +327,7 @@ class _AppShellState extends State<AppShell> {
       default:
         return ServicesScreen(
           key: const ValueKey('home'),
-          title: 'Good morning, Jordan',
+          title: 'Good morning, Karthik',
           subtitle: 'Your city, all in one place.',
           services: cityServices,
           city: _city,
@@ -386,7 +386,7 @@ class _AppShellState extends State<AppShell> {
               radius: 18,
               backgroundColor: Theme.of(context).colorScheme.primaryContainer,
               child: Text(
-                'JD',
+                'KS',
                 style: TextStyle(
                   color: Theme.of(context).colorScheme.onPrimaryContainer,
                   fontSize: 12,
