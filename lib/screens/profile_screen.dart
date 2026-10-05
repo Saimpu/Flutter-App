@@ -53,7 +53,7 @@ class ProfileScreen extends StatelessWidget {
                         radius: 30,
                         backgroundColor: colors.primaryContainer,
                         child: Text(
-                          'JD',
+                          'KS',
                           style: TextStyle(
                             color: colors.onPrimaryContainer,
                             fontWeight: FontWeight.w800,
@@ -66,7 +66,7 @@ class ProfileScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Jordan Davis',
+                            Text('Karthik Saimpu',
                                 style: Theme.of(context)
                                     .textTheme
                                     .titleLarge
