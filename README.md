@@ -37,6 +37,12 @@ flutter pub get
 flutter run
 ```
 
+## Deploy to GitHub Pages
+
+The workflow in `.github/workflows/deploy.yml` builds the Flutter web app whenever changes are pushed to `main` and deploys it to GitHub Pages. In the repository settings, open **Pages** and set the publishing source to **GitHub Actions**. The workflow uses this repository's `/Flutter-App/` base path.
+
+You can also start a deployment manually from the repository's **Actions** tab by running **Deploy Flutter web to GitHub Pages**.
+
 ## Demo data
 
 Weather, air quality, city notices, contact guidance, and service statuses are sample content. Requests and saved services stay in memory for the current app session; no city system or backend is connected.
